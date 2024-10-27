@@ -1,4 +1,4 @@
-package PrintF_Locale;
+package Secao4;
 
 public class Casting {
     public static void main(String[] args) {

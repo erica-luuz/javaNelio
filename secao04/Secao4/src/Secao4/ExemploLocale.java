@@ -1,10 +1,10 @@
-package PrintF_Locale;
+package Secao4;
 
 import java.util.Locale;
 
-public class ParaConcatenar {
-
+public class ExemploLocale {
     public static void main(String[] args) {
+        int y = 32;
         double x = 10.35784;
         // O pintf serve para eu imprimir alguma coisa formatada.
         System.out.println(x);
@@ -14,12 +14,10 @@ public class ParaConcatenar {
         Locale.setDefault(Locale.US);
 
         System.out.printf("%.4f%n", x);
-        System.out.println("Resultado = " + x + " Metros");
-        System.out.printf("Resultado = %.2f metros%n", x);
 
-        String nome = "Maria";
-        int idade = 31;
-        double renda = 4000.0;
-        System.out.printf("%s tem %d anos e ganha R$ %.2f reais%n", nome,idade,renda);
+        /* o Locale serve para colocar meu codigo em padrao americano, onde na saidas nao sairao
+        "," e sim ".".
+         */
+
     }
 }
