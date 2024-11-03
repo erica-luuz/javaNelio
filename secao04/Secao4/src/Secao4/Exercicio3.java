@@ -15,5 +15,7 @@ public class Exercicio3 {
 
         System.out.println("Diferença = " + diferenca);
 
+        scan.close();
+
     }
 }
